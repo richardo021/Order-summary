@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat&family=Outfit&family=Red+Hat+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 13px
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.card {
+    width: 300px;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+}
+.card img {
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+.deskripsi {
+    padding: 20px;
+}
+
+.summary {
+    text-align: center;
+}
+
+.summary h1 {
+    margin-bottom: 20px;
+}
+
+.summary p {
+    color: hsl(224, 23%, 55%);
+}
+
+.deskripsi h1 {
+    font-size: 20px;
+}
+
+.song {
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-between;
+    margin: 30px 0px;
+    background-color: hsl(230, 60%, 96%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.song .music {
+    width: 35px;
+    height: 35px;
+}
+
+.value {
+    display: flex;
+}
+
+.price {
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.price h1 {
+    font-size: 13px;
+    font-weight: 800;
+}
+.price p {
+    font-size: 13px;
+}
+
+.change {
+    margin-top: 10px;
+}
+
+.change a{
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+}
+
+.process {
+    color: hsl(225, 100%, 98%);
+    padding: 12px 0px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    margin-bottom: 10px;
+    border-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cancel {
+    cursor: pointer;
+    border-radius: 1px;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    border-style: none;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.change a:hover {
+    text-decoration: underline;
+}
+
+.process:hover {
+    background-color: hsl(223, 48%, 30%);
+}
+
+.cancel:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.attribution {
+    margin: 20px;
+}
